@@ -1,14 +1,14 @@
-*{
+#2BD4B5*{
 	margin: 0;
 	padding: 0;
 }
 
 body{
-	background-color: #778899;	
+	background-color: #19212C;	
 }
 
 header{
-	background-color: #F0FFF0;
+	background-color: #2BD4B5;
 	position: fixed;
 	z-index: 2000;
 	width: 100%;
@@ -30,7 +30,7 @@ header{
 
 .logo h1 a{
 	text-decoration: none;
-        color: #666;
+        color: #000000;
         position: absolute;        ;                 
         -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
 }

@@ -43,6 +43,7 @@ header{
 
 .nav{
 	margin-top: 10px;
+  margin-left: 25%;
 }
 .nav a{
 	font-size: 16px;
@@ -57,7 +58,6 @@ header{
 
 .nav i{
 	margin-left: 15px;
-	float: right;
 	cursor: pointer;
 	margin-top: 4px;
 }
@@ -103,7 +103,7 @@ Modal Window About
   left: 0;
 }
 .cd-modal svg > path {
-  fill: #1f4c74;
+  fill: #0D1426;
 }
 
 .cd-modal .modal-close {
@@ -196,6 +196,24 @@ Modal Window About
     padding: 3em 10% 4em;
   }  
 }
+#nomer1 {
+  overflow: hidden;
+}
+#photo_about {
+  float: left;
+  width: 30%;
+}
+#photo_about img{
+  width: 100%;
+  margin-top: 35%;
+}
+#text_about{
+  color: white;
+  margin-left:32%;
+}
+
+
+
   /* form contact*/
 form {
   width: 500px;
@@ -283,6 +301,10 @@ input, .floating-placeholder, button {
 	text-align: center;
 	font-family:'Lato', helvetica, arial;
 	color: #fff;
+}
+#nomer2 p {
+  font-size: 20px;
+  padding-bottom: 5%;
 }
 
   /* button modal 2*/
